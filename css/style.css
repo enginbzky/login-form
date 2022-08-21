@@ -1,0 +1,37 @@
+main section {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  bottom: 25%;
+  right: 40%;
+  display: block;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0px 1px 2px 1px rgba(71, 69, 69, 0.89);
+}
+
+form {
+  padding-left: 20px;
+}
+
+.type {
+  width: 250px;
+  height: 25px;
+}
+
+p {
+  display: inline;
+  color: red;
+}
+
+/*I used to pseudo-element*/
+
+form label:after {
+  content: "*";
+  display: inline;
+}
+
+h1 {
+  color: rgb(88, 141, 210);
+  text-align: center;
+}
